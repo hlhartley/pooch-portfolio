@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
 import './CSS/main.scss';
+import HexagonImageBanner from './components/HexagonImageBanner';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Welcome to Pooch Portfolio.
-        </p>
-      </header>
+      <HexagonImageBanner />
     </div>
   );
 }
