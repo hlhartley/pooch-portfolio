@@ -1,6 +1,8 @@
 .App {     
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Miriam Libre', sans-serif;
+
+    h1 {
+        font-size: 2.5rem;
+    }
 }
