@@ -1,0 +1,26 @@
+.pet-info-header {
+    margin-top: 70px;
+}
+
+.pet-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+    
+    label {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .pet-picture {
+        max-width: 235px;
+        border-radius: 50%;
+    }
+    
+    .pet-info-details {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+}
