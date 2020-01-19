@@ -11,23 +11,28 @@ class PetInfo extends React.Component {
     render() {
         let { name } = this.state;
         return (
-            <section className="pet-info-container">
-                <div>
-                    <h1>{ name ? `${name}'s Info` : 'Pet Info' }</h1>
-                    <div>
-                        <label>Age: </label>
-                        <span>9 months</span>
+            <Fragment>
+                <h1 className="pet-info-header">{ name ? `${name}'s Info` : 'Pet Info' }</h1>
+                <section className="pet-info-container">
+                    <div className="pet-info-picture">
+                        <img className="pet-picture" src={require("../images/Boolean.jpg")} alt="your-dog-picture"/>
                     </div>
-                    <div>
-                        <label>Breed: </label>
-                        <span>Yellow lab</span>
+                    <div className="pet-info-details">
+                        <div>
+                            <label>Age: </label>
+                            <span>9 months</span>
+                        </div>
+                        <div>
+                            <label>Breed: </label>
+                            <span>Yellow lab</span>
+                        </div>
+                        <div>
+                            <label>Home Address: </label>
+                            <span>1234 Rabbit Ln., Denver, CO</span>
+                        </div>
                     </div>
-                    <div>
-                        <label>Home Address: </label>
-                        <span>1234 Rabbit Ln., Denver, CO</span>
-                    </div>
-                </div>
-            </section>
+                </section>
+            </Fragment>
         );
     }
 }
