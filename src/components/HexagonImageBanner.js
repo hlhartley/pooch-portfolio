@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 function HexagonImageBanner() {
     return (
         <Fragment>
-            <div className="banner-container">
+            <section className="banner-container">
                 <ul id="grid" className="clear">
                 <div className="row">
                     <li>
@@ -37,7 +37,7 @@ function HexagonImageBanner() {
                     <h1>POOCH PORTFOLIO</h1>
                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
                 </div>
-            </div>
+            </section>
         </Fragment>
     );
 }

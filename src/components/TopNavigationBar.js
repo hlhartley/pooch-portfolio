@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 function TopNavigationBar() {
     return (
-        <Fragment>
+        <nav>
             <div className="navigation-container">HOME</div>
-        </Fragment>
+        </nav>
     );
 }
 
