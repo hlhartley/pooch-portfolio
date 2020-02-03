@@ -6,3 +6,6 @@ A web-app designed to help pet lovers store health, dietary, and other crucial i
 
 *Pet Info*
 ![pooch-portfolio-pet-info-screenshot](pooch-portfolio-pet-details.png)
+
+*Photo Gallery*
+![pooch-portfolio-photo-gallery-screenshot](pooch-portfolio-photo-gallery.png)
